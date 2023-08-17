@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rock Paper Scissors</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <header>
+        <div class="prs-heading">
+            <h1 class="prs-header">Rock, Paper, Scissors</h1>
+        </div>
+       </header>
+
+       <main>
+        <div class="prs-main">
+            <div class="question">
+                <p id="question-el">Do you want to play rock, paper, scissors?</p>
+                <button id="yes" class="question-btn" onclick="yes()">Yes</button>
+                <button id="no" class="question-btn" onclick="no()">No</button>
+            </div>
+
+            <div class="flex-row-container">
+                <div class="flex-collumn-container">
+                    <h3 class="players">Player</h3>
+                    <img src=""  id="player-choice">
+                </div>
+                <div>
+                    <h2 id="winner-el"> </h2>
+                </div>
+                <div class="flex-collumn-container">
+                    <h3 class="players">Computer</h3>
+                    <img src=""  id="computer-choice">
+                </div>
+            </div>
+
+            
+
+            <button id="again" onclick="again()">Play again</button>
+        </div>
+       </main>
+
+       <footer>
+        &#169; Oanh Dingle - 2023
+       </footer>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prs-heading {
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+}
+
+.prs-heading::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('images/div-2-background.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    z-index: -1;
+}
+
+.prs-header {
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Lobster Two', cursive; */
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 3px black;
+}
+
+.prs-main {
+    font-family: 'Lobster Two', cursive;
+    background-image: radial-gradient(#7DE5ED, #81C6E8);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.question {
+    color: rgb(55, 54, 54);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.question-btn {
+    font-family: inherit;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5837D0;
+    color: white;
+    font-size: 1rem;
+}
+#no {
+    background-color: gray;
+}
+
+#question-el{
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(55, 54, 54);
+    text-shadow: 1px 1px white;
+    padding: 2rem;
+}
+
+.flex-row-container {
+    margin-top: 2rem;
+    /* margin-bottom: 2rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.players {
+    font-size: 3rem;
+    color:white;
+    text-shadow: -4px 4px rgb(55, 54, 54);
+}
+img {
+    width: 200px;
+    height: auto;
+    padding-top: 1rem;
+}
+
+#winner-el {
+    /* padding: 2rem; */
+    text-align: center;
+    color: firebrick;
+    text-shadow: 1px 1px white;
+    font-size: 4rem;
+}
+
+#again {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 300px;
+    height: 75px;
+    font-family: inherit;
+    font-size: 2rem;
+    border: none;
+    border-radius: 20px;
+    background-color:  #5837D0;
+    color: white;
+    box-shadow: 5px -5px 5px 5px rgb(193, 192, 192);
+}
+
+#again:hover {
+    background-color: rgba(88, 55, 208, 0.5);
+    color: rgb(55, 54, 54);
+    box-shadow: 5px 5px 5px 5px #5837D0;
+}
+
+footer {
+    background-color: #5837D0;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
