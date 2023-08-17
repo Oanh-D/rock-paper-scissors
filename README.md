@@ -14,4 +14,4 @@ And show who wins the game.
 
 Finally, if user wants to play the game again, the button play again will run the game again.
 
-<img width = 500px, height = 500px src = " ">
+<img width = 1000px, height = 500px src = " ">
