@@ -14,13 +14,13 @@ function yes () {
         let playerChoice = playerInput.toLowerCase();
         if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors"){
             if (playerChoice === "rock"){
-                playerImg.src = "images/rock.png";
+                playerImg.src = "rock.png";
             } 
             else if (playerChoice === "paper"){
-                playerImg.src = "images/paper.png";
+                playerImg.src = "paper.png";
             }
             else if (playerChoice === "scissors"){
-                playerImg.src = "images/scissors.png";
+                playerImg.src = "scissors.png";
             }
         }
         else {
@@ -32,13 +32,13 @@ function yes () {
         let randomNum = Math.floor(Math.random()*3);
         let computerChoice = rpsList[randomNum];
         if (computerChoice === "rock"){
-            computerImg.src = "images/rock.png";
+            computerImg.src = "rock.png";
         }
         else if (computerChoice === "paper"){
-            computerImg.src = "images/paper.png";
+            computerImg.src = "paper.png";
         }
         else if (computerChoice === "scissors"){
-            computerImg.src = "images/scissors.png";
+            computerImg.src = "scissors.png";
         }
 
         if ((playerChoice === "rock" && computerChoice === "scissors") || (playerChoice === "paper" && computerChoice === "rock") || (playerChoice === "scissors" && computerChoice === "paper")){
